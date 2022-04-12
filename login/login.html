@@ -1,3 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script defer src="https://code.getmdl.io/1.1.2/material.min.js"></script>
+    <title>Hello, world!</title>
+  </head>
 <style>
 body{
   padding: 50px;
@@ -38,6 +50,7 @@ background-size: cover;
   top: 175px;
   position: absolute;
   z-index: 1;
+  color: white;
 }
 h2 {
   padding-left: 15px;
@@ -98,16 +111,17 @@ h2 {
         <!--Email-->
         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
           <input class="mdl-textfield__input" type="email" id="sample3">
-          <label class="mdl-textfield__label" for="sample3">Email</label>
-          <span class="mdl-textfield__error">Enter a correct Email</span>
+          <label class="mdl-textfield__label" for="sample3">Email</label><br>
+          <small><span class="mdl-textfield__error">Enter a correct Email</span></small>
         </div>
         <br/>
         <br/>
         <!--Password-->
         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
           <input pattern=".{8,}" class="mdl-textfield__input" type="password" id="sample3">
-          <label class="mdl-textfield__label" for="sample3">Password</label>
-          <span class="mdl-textfield__error">Minimum 8 characters</span>
+          <label class="mdl-textfield__label" for="sample3">Password</label><br>
+          <small> <span class="mdl-textfield__error">Minimum 8 characters</span></small>
+         
         </div>
         <br/>
         <p class="forgot-text">Forgot Password ?</p>
@@ -124,3 +138,5 @@ h2 {
     </button><!--/button-->
  </div><!--/.signin-->
 </body>
+
+</html>
